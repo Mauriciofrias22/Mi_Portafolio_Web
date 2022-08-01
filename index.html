@@ -1,214 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Portfolio</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+<body>
+    
+<!-- header section starts  -->
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <h3 style="color:white;">MAURICIO JAVIER FRIAS ORTIZ</h3>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">My
-                            Projects</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About
-                            Me</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="assets/files/CV_Developer.pdf" target="_blank;">Download CV</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="assets/files/HV_Desarrollador.pdf" target="_blank;">Descarga HV</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </div>
+<header>
+
+    <div class="user">
+        <img src="img/Perfil_4.png" alt="">
+        <h3 class="name">Mauricio Frias</h3>
+        <p class="post">Junior Backend Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="assets/img/Perfil_1.png" alt="..." />
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Python Junior</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Back-end Developer</p>
-        </div>
-    </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My Projects</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
-                <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <img class="img-fluid" src="assets/img/portfolio/Gestion_Alpura.png" alt="..."/>
-                        <h4 class="u-text u-text-2">Employee Management App with Flask</h4>
-                    </div>
-                    <br>
-                    <a href="http://mauriciofrias.pythonanywhere.com/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                        <img class="img-fluid" src="assets/img/portfolio/Registro_Covid_19.png" alt="..." />
-                        <h4 class="u-text u-text-2">Covid-19 Registration Form with Flask</h4>
-                    </div>
-                    <br>
-                    <a href="https://vaccine-register.herokuapp.com/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                        <img class="img-fluid" src="assets/img/portfolio/Github.jpg" alt="..." />
-                        <h4 class="u-text u-text-2">My GitHub Repository.</h4>
-                    </div>
-                    <a href="https://github.com/Mauriciofrias22/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <img class="img-fluid" src="assets/img/portfolio/inventarios_pintuco.png" alt="..." />
-                        <h4 class="u-text u-text-2">Front-end Project With React Components.</h4>
-                    </div>
-                    <a href="https://pintuco-frontend.herokuapp.com/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <img class="img-fluid" src="assets/img/portfolio/Landing_page.png" alt="..." />
-                        <h4 class="u-text u-text-2">Landing Page With <br> React Components.</h4>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a href="https://travelinfopage.herokuapp.com/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 6-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <img class="img-fluid" src="assets/img/portfolio/Coffee_ shop_website.png" alt="..." />
-                        <h4 class="u-text u-text-2">Coffee Shop Website With HTML, CSS and JS.</h4>
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <a href="https://mauriciofrias22.github.io/Coffeshop-Website/" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <img class="img-fluid" src="assets/img/portfolio/Movies_Website.png" alt="..." />
-                        <h4 class="u-text u-text-2">Responsive Movie Website With HTML, CSS and JS.</h4>
-                    </div>
-                    <a href="https://mauriciofrias22.github.io/Movies-Website/#home" target="_blank" class="btn btn-primary">Visit Project</a>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead">I
-                        am a hardworking person, honest and hungry for knowledge. In that search and
-                        thanks to my knowledge of the English language and my passion for technology, I
-                        found the Python language, which has given a new meaning to my life, since
-                        thanks to this knowledge that I have acquired and that I continue to acquire,</p>
-                </div>
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead"> I
-                        can aspire to expand the professional field in which I can operate in these
-                        times of pandemic in which many people do not find employment because of the
-                        field in which they operate.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Contact Section Form-->
-            <div class="d-flex justify-content-center">
-                <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/mauricio.j.ortiz" role="button"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/mauriciofrias22" role="button"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/mauricio-javier-frias-ortiz-82251677/" role="button"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://www.instagram.com/mauriciofrias22/?hl=es" role="button"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/Mauriciofrias22" role="button"><i class="fab fa-github"></i></a>
-                <a class="btn btn-primary" style="background-color: #25d366;" href="https://wa.link/a9c318" role="button"><i class="fab fa-whatsapp"></i></a>
-                <a class="btn btn-primary" style="background-color: #dd4b39;" href="mailto:mauriciofrias22@gmail.com?subject=Subject Using mauriciofrias22@gmail,com&body=Email Using mauriciofrias22@gmail.com" role="button"><i class="fab fa-google"></i></a>
-            </div>
-        </div>
-    </section>
-    <a class="btn btn-primary" href="#page-top">Back to Top</a>
-    <!-- Footer-->
-    <footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Mauricio Frias 2021</small></div>
-        </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-</body>
 
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Mauricio Frias</span></h1>
+    <p>I am a hardworking person, honest and hungry for knowledge. In that search and thanks to my knowledge of the English language and my passion for technology, I found the Python language, which has given a new meaning to my life, since thanks to this knowledge that I have acquired and that I continue to acquire, I can aspire to expand the professional field in which I can operate in these times of pandemic in which many people do not find employment because of the field in which they operate.
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Mauricio Frias</h3>
+        <h3> <span> age : </span> 38 </h3>
+        <h3> <span> post : </span> Junior Backend developer </h3>
+        <h3> <span> language : </span> English, Spanish </h3>
+         <a href="files/Updated_CV.pdf" target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        <a href="files/Hv_Actualizada.pdf" target="_blank"><button class="btn"> descargar HV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>6</span>
+            <h3>Months of Working experience</h3>
+        </div>
+
+        <div class="box">
+            <span>5 +</span>
+            <h3>projects completed</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022</span>
+        <h3>Egg Education</h3>
+        <p>programming from scratch and algorythms with pseint</p>
+    </div>
+    
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Universidad del Norte</h3>
+        <p>Programing Skills with Emphasis on Web Development</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Universidad del Norte</h3>
+        <p>Programming Fundamentals, Basic Programming and Software Development</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>Codecademy (Web Platform)</h3>
+        <p>Linear Data Structures Course</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>Codecademy</h3>
+        <p>Code Foundations Course</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>Codecademy</h3>
+        <p>Learn How to Code Course</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>Udemy</h3>
+        <p>Python Developer Course</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2004</span>
+        <h3>Sena</h3>
+        <p>Basic Accounting Course</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2002</span>
+        <h3>Unitep</h3>
+        <p>Assembly, Maintenance, Repair and Configuration of Computers</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2001</span>
+        <h3>Centro Colombo Americano</h3>
+        <p>English Proficiency</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>portfolio</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <h3>1</h3>
+        <img src="img/Gestion_Alpura.png" alt="">
+    </div>
+    
+    <div class="box">
+        <h3>2</h3>
+        <img src="img/Registro_Covid_19.png" alt="">
+    </div>
+
+    <div class="box">
+        <h3>3</h3>
+        <img src="img/Landing_page.png" alt="">
+    </div>
+
+    <div class="box">
+        <h3>4</h3>
+        <img src="img/inventarios_pintuco.png" alt="">
+    </div>
+
+    <div class="box">
+        <h3>5</h3>
+        <img src="img/Movies_Website.png" alt="">
+    </div>
+
+    <div class="box">
+        <h3>6</h3>
+        <img src="img/Coffee_ shop_website.png" alt="">
+    </div>
+
+</div>
+<div class="links">
+    <h1>Visit Projects</h1>
+    <br>
+    <br>
+    <a href="http://mauriciofrias.pythonanywhere.com/" target="_blank" class="btn btn-primary">(1) Employee Management App with Flask</a>
+    <a href="https://vaccine-register.herokuapp.com/" target="_blank" class="btn btn-primary">(2) Covid-19 Registration Form with Flask</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://travelinfopage.herokuapp.com/" target="_blank" class="btn btn-primary">(3) Landing Page With React Components.</a>
+    <a href="https://pintuco-frontend.herokuapp.com/" target="_blank" class="btn btn-primary">(4) Front-end Project With React Components.</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://mauriciofrias22.github.io/Movies-Website/" target="_blank" class="btn btn-primary">(5) Responsive Movie Website With HTML, CSS and JS.</a>
+    <br>
+    <br>
+    <br>
+    <a href="https://mauriciofrias22.github.io/Coffeshop-Website/" target="_blank" class="btn btn-primary">(6) Coffee Shop Website With HTML, CSS and JS.</a>
+</div>
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+        
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> mauriciofrias22@gmail.com </h3>
+            <h3> <i class="fas fa-phone"></i> +57 314-894-8363 </h3>
+            <h3> <i class="fas fa-phone"></i> +57 305-380-2935 </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Cartagena, Colombia - 130004. </h3>
+                                   
+        </div>
+        
+    </div>
+
+    <!--<form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" href="mailto:mauriciofrias22@gmail.com?subject=Subject Using mauriciofrias22@gmail,com&body=Email Using mauriciofrias22@gmail.com" target="_blank" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+    </form>-->
+
+    <div class="email-me">
+        <h3> <i class="fas fa-envelope"></i> Email Me </h3>
+        <a class="btn btn-primary" style="background-color: #dd4b39;" href="mailto:mauriciofrias22@gmail.com?subject=Subject Using mauriciofrias22@gmail,com&body=Email Using mauriciofrias22@gmail.com" role="button"><i class="fab fa-google"></i></a>
+        <br>
+        <br>
+        <h3> <i class='fas fa-users' style='font-size:36px'> Social Media</i></h3>
+        <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/mauricio.j.ortiz" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/mauriciofrias22" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/mauricio-javier-frias-ortiz-82251677/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://www.instagram.com/mauriciofrias22/?hl=es" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+        <br>
+        <br>
+        <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/Mauriciofrias22" target="_blank" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-primary" style="background-color: #25d366;" href="https://wa.link/a9c318" target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="img/scroll-top-img.png" alt="">
+</a>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
 </html>
