@@ -297,6 +297,10 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 
+.portfolio .box-container .box a{
+    color: #fff;
+}
+
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
