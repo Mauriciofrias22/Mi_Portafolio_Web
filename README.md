@@ -1,1 +1,1 @@
-![portafolio](https://github.com/Mauriciofrias22/Mi_Portafolio_Web/assets/66804192/388cadce-304f-4667-b9df-532870e40cd4)
+![FireShot Capture 060 - Responsive personal portfolio website - mauriciofrias22 github io](https://github.com/user-attachments/assets/e635c370-ab80-44a1-b1e1-e9ac4e25211f)
