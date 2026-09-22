@@ -1,1 +1,1 @@
-![FireShot Capture 060 - Responsive personal portfolio website - mauriciofrias22 github io](https://github.com/user-attachments/assets/e635c370-ab80-44a1-b1e1-e9ac4e25211f)
+<img width="1899" height="6703" alt="FireShot Capture 001 - Responsive personal portfolio website -  mauriciofrias22 github io" src="https://github.com/user-attachments/assets/b57bce52-ce66-4461-aba2-608cf3a98ce0" />
